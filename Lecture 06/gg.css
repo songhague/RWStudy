@@ -1,0 +1,40 @@
+*{margin: 0;
+    padding: 0;
+}
+#box_total{
+    width: 1000px;
+    height: 500px;
+}
+.box{
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    float: left;
+}
+#b0{
+    border: 5px solid red; text-align: center;
+}
+#b1{ 
+    border: 5px solid green;  text-align: center;
+}
+#b2{ 
+    border: 5px solid blue;
+}
+#d0{
+    color: aquamarine;
+}
+#d1{
+    color: yellow;
+}
+#d2{
+    color: pink;
+}
+#d3{
+    color: coral;
+}
+#d4s{
+    color: lightcoral;
+}
+#d5{
+    color: black;
+}

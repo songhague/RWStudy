@@ -1,52 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script src="gg.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style media="screen">
-        *{margin: 0;
-            padding: 0;
-        }
-        #box_total{
-            width: 1000px;
-            height: 500px;
-        }
-        .box{
-            width: 300px;
-            height: 500px;
-            margin: 10px;
-            float: left;
-        }
-    </style>
+    <link rel="stylesheet" href="gg.css">
 </head>
 <body>
-    
     <div><p style="margin-left: 450px;">하노이의 탑</p></div>
     <button onclick="ha()">초기화</button>
     <div id="box_total">
-        <div class="box" style="border: 5px solid red; text-align: center;">
-            <p id="d0" style="color: aquamarine;"></p>
-            <p id="d1" style="color: yellow;"></p>
-            <p id="d2" style="color: pink;"></p>
-            <p id="d3" style="color: coral;"></p>
-            <p id="d4" style="color: lightcoral;"></p>
-            <p id="d5" style="color: black;"></p></div>
-        <div class="box" style="border: 5px solid green;  text-align: center;" >
+        <div class="box" id="b0">
+            <p id="d0"></p>
+            <p id="d1"></p>
+            <p id="d2"></p>
+            <p id="d3"></p>
+            <p id="d4"></p>
+            <p id="d5"></p></div>
+        <div class="box" id="b1">
            <p>second</p>
         </div>
-        <div class="box" style="border: 5px solid blue;"></div>
+        <div class="box" id="b2"></div>
     </div>
-    <script>
-        function ha() {
-            document.getElementById("d0").innerHTML = "■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■";
-            document.getElementById("d1").innerHTML = "■ ■ ■ ■ ■ ■ ■ ■ ■";
-            document.getElementById("d2").innerHTML = "■ ■ ■ ■ ■ ■ ■";
-            document.getElementById("d3").innerHTML = "■ ■ ■ ■ ■";
-            document.getElementById("d4").innerHTML = "■ ■ ■";
-            document.getElementById("d5").innerHTML = "■";
-            }
-        </script>
 </body>
 </html>
